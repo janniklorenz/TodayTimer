@@ -167,6 +167,12 @@
 
 - (void)widgetList:(NCWidgetListViewController *)list didReorderRow:(NSUInteger)row toRow:(NSUInteger)newIndex {
     // The user has reordered an item in the list.
+    NSMutableArray *content = [NSMutableArray arrayWithArray:self.listViewController.contents];
+    Timer *t = [content objectAtIndex:row];
+    [content removeObjectAtIndex:row];
+    [content insertObject:t atIndex:newIndex];
+    self.listViewController.contents = [NSArray arrayWithArray:content];
+    [self save];
 }
 
 - (BOOL)widgetList:(NCWidgetListViewController *)list shouldRemoveRow:(NSUInteger)row {
@@ -176,6 +182,12 @@
 
 - (void)widgetList:(NCWidgetListViewController *)list didRemoveRow:(NSUInteger)row {
     // The user has removed an item from the list.
+    
+    NSMutableArray *content = [NSMutableArray arrayWithArray:self.listViewController.contents];
+    [content removeObjectAtIndex:row];
+    self.listViewController.contents = [NSArray arrayWithArray:content];
+    [self save];
+    
 }
 
 
