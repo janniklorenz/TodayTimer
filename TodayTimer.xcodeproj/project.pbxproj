@@ -13,6 +13,15 @@
 		C41690DE193F7CF60040911B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41690DD193F7CF60040911B /* Images.xcassets */; };
 		C41690E1193F7CF60040911B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41690DF193F7CF60040911B /* Main.storyboard */; };
 		C41690ED193F7CF60040911B /* TodayTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C41690EC193F7CF60040911B /* TodayTimerTests.m */; };
+		C4CD4623193F7D3500A37B30 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CD4622193F7D3500A37B30 /* NotificationCenter.framework */; };
+		C4CD4628193F7D3500A37B30 /* Today_Timer.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = C4CD4627193F7D3500A37B30 /* Today_Timer.entitlements */; };
+		C4CD462B193F7D3500A37B30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4CD4629193F7D3500A37B30 /* InfoPlist.strings */; };
+		C4CD462E193F7D3500A37B30 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CD462D193F7D3500A37B30 /* TodayViewController.m */; };
+		C4CD4633193F7D3500A37B30 /* com.jlproduction.TodayTimer.Today-Timer.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C4CD4620193F7D3500A37B30 /* com.jlproduction.TodayTimer.Today-Timer.appex */; };
+		C4CD463F193F7DBF00A37B30 /* ListRowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CD463B193F7DBF00A37B30 /* ListRowViewController.m */; };
+		C4CD4640193F7DBF00A37B30 /* ListRowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4CD463C193F7DBF00A37B30 /* ListRowViewController.xib */; };
+		C4CD4641193F7DBF00A37B30 /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CD463E193F7DBF00A37B30 /* Timer.m */; };
+		C4CD4643193F7E7100A37B30 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4CD4642193F7E7100A37B30 /* TodayViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +32,35 @@
 			remoteGlobalIDString = C41690CF193F7CF60040911B;
 			remoteInfo = TodayTimer;
 		};
+		C4CD4631193F7D3500A37B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41690C8193F7CF60040911B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4CD461F193F7D3500A37B30;
+			remoteInfo = "Today Timer";
+		};
+		C4CD4634193F7D3500A37B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41690C8193F7CF60040911B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4CD461F193F7D3500A37B30;
+			remoteInfo = "Today Timer";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C4CD4639193F7D3500A37B30 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C4CD4633193F7D3500A37B30 /* com.jlproduction.TodayTimer.Today-Timer.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C41690D0193F7CF60040911B /* TodayTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +75,19 @@
 		C41690E6193F7CF60040911B /* TodayTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodayTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41690EB193F7CF60040911B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C41690EC193F7CF60040911B /* TodayTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayTimerTests.m; sourceTree = "<group>"; };
+		C4CD4620193F7D3500A37B30 /* com.jlproduction.TodayTimer.Today-Timer.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "com.jlproduction.TodayTimer.Today-Timer.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CD4622193F7D3500A37B30 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		C4CD4626193F7D3500A37B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4CD4627193F7D3500A37B30 /* Today_Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Today_Timer.entitlements; sourceTree = "<group>"; };
+		C4CD462A193F7D3500A37B30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4CD462C193F7D3500A37B30 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		C4CD462D193F7D3500A37B30 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		C4CD463A193F7DBF00A37B30 /* ListRowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListRowViewController.h; sourceTree = "<group>"; };
+		C4CD463B193F7DBF00A37B30 /* ListRowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListRowViewController.m; sourceTree = "<group>"; };
+		C4CD463C193F7DBF00A37B30 /* ListRowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListRowViewController.xib; sourceTree = "<group>"; };
+		C4CD463D193F7DBF00A37B30 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		C4CD463E193F7DBF00A37B30 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
+		C4CD4642193F7E7100A37B30 /* TodayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +105,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4CD461D193F7D3500A37B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CD4623193F7D3500A37B30 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +121,8 @@
 			children = (
 				C41690D2193F7CF60040911B /* TodayTimer */,
 				C41690E9193F7CF60040911B /* TodayTimerTests */,
+				C4CD4624193F7D3500A37B30 /* Today Timer */,
+				C4CD4621193F7D3500A37B30 /* Frameworks */,
 				C41690D1193F7CF60040911B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +132,7 @@
 			children = (
 				C41690D0193F7CF60040911B /* TodayTimer.app */,
 				C41690E6193F7CF60040911B /* TodayTimerTests.xctest */,
+				C4CD4620193F7D3500A37B30 /* com.jlproduction.TodayTimer.Today-Timer.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +177,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C4CD4621193F7D3500A37B30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4CD4622193F7D3500A37B30 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4CD4624193F7D3500A37B30 /* Today Timer */ = {
+			isa = PBXGroup;
+			children = (
+				C4CD462C193F7D3500A37B30 /* TodayViewController.h */,
+				C4CD462D193F7D3500A37B30 /* TodayViewController.m */,
+				C4CD4642193F7E7100A37B30 /* TodayViewController.xib */,
+				C4CD463A193F7DBF00A37B30 /* ListRowViewController.h */,
+				C4CD463B193F7DBF00A37B30 /* ListRowViewController.m */,
+				C4CD463C193F7DBF00A37B30 /* ListRowViewController.xib */,
+				C4CD463D193F7DBF00A37B30 /* Timer.h */,
+				C4CD463E193F7DBF00A37B30 /* Timer.m */,
+				C4CD4625193F7D3500A37B30 /* Supporting Files */,
+			);
+			path = "Today Timer";
+			sourceTree = "<group>";
+		};
+		C4CD4625193F7D3500A37B30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4CD4626193F7D3500A37B30 /* Info.plist */,
+				C4CD4627193F7D3500A37B30 /* Today_Timer.entitlements */,
+				C4CD4629193F7D3500A37B30 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,10 +221,13 @@
 				C41690CC193F7CF60040911B /* Sources */,
 				C41690CD193F7CF60040911B /* Frameworks */,
 				C41690CE193F7CF60040911B /* Resources */,
+				C4CD4639193F7D3500A37B30 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C4CD4632193F7D3500A37B30 /* PBXTargetDependency */,
+				C4CD4635193F7D3500A37B30 /* PBXTargetDependency */,
 			);
 			name = TodayTimer;
 			productName = TodayTimer;
@@ -154,6 +252,23 @@
 			productReference = C41690E6193F7CF60040911B /* TodayTimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C4CD461F193F7D3500A37B30 /* Today Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CD4638193F7D3500A37B30 /* Build configuration list for PBXNativeTarget "Today Timer" */;
+			buildPhases = (
+				C4CD461C193F7D3500A37B30 /* Sources */,
+				C4CD461D193F7D3500A37B30 /* Frameworks */,
+				C4CD461E193F7D3500A37B30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Today Timer";
+			productName = "Today Timer";
+			productReference = C4CD4620193F7D3500A37B30 /* com.jlproduction.TodayTimer.Today-Timer.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,6 +284,9 @@
 					C41690E5193F7CF60040911B = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = C41690CF193F7CF60040911B;
+					};
+					C4CD461F193F7D3500A37B30 = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -187,6 +305,7 @@
 			targets = (
 				C41690CF193F7CF60040911B /* TodayTimer */,
 				C41690E5193F7CF60040911B /* TodayTimerTests */,
+				C4CD461F193F7D3500A37B30 /* Today Timer */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +324,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CD461E193F7D3500A37B30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CD4643193F7E7100A37B30 /* TodayViewController.xib in Resources */,
+				C4CD4628193F7D3500A37B30 /* Today_Timer.entitlements in Resources */,
+				C4CD4640193F7DBF00A37B30 /* ListRowViewController.xib in Resources */,
+				C4CD462B193F7D3500A37B30 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +359,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4CD461C193F7D3500A37B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CD4641193F7DBF00A37B30 /* Timer.m in Sources */,
+				C4CD462E193F7D3500A37B30 /* TodayViewController.m in Sources */,
+				C4CD463F193F7DBF00A37B30 /* ListRowViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +376,16 @@
 			isa = PBXTargetDependency;
 			target = C41690CF193F7CF60040911B /* TodayTimer */;
 			targetProxy = C41690E7193F7CF60040911B /* PBXContainerItemProxy */;
+		};
+		C4CD4632193F7D3500A37B30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4CD461F193F7D3500A37B30 /* Today Timer */;
+			targetProxy = C4CD4631193F7D3500A37B30 /* PBXContainerItemProxy */;
+		};
+		C4CD4635193F7D3500A37B30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4CD461F193F7D3500A37B30 /* Today Timer */;
+			targetProxy = C4CD4634193F7D3500A37B30 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -246,6 +396,14 @@
 				C41690E0193F7CF60040911B /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4CD4629193F7D3500A37B30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4CD462A193F7D3500A37B30 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -387,6 +545,38 @@
 			};
 			name = Release;
 		};
+		C4CD4636193F7D3500A37B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Today Timer/Today_Timer.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Today Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "com.jlproduction.TodayTimer.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C4CD4637193F7D3500A37B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Today Timer/Today_Timer.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Today Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "com.jlproduction.TodayTimer.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -406,12 +596,22 @@
 				C41690F2193F7CF60040911B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C41690F3193F7CF60040911B /* Build configuration list for PBXNativeTarget "TodayTimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C41690F4193F7CF60040911B /* Debug */,
 				C41690F5193F7CF60040911B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4CD4638193F7D3500A37B30 /* Build configuration list for PBXNativeTarget "Today Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CD4636193F7D3500A37B30 /* Debug */,
+				C4CD4637193F7D3500A37B30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
