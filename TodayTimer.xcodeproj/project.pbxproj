@@ -128,6 +128,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FBA2F86D1AE5C2CE00BBCCE6 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				FBFE07851AE59ECE002DFEDE /* Data.xcdatamodeld */,
+				FBFE07881AE59F1A002DFEDE /* Timer.swift */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
 		FBCECB931AE593AA0084A52E = {
 			isa = PBXGroup;
 			children = (
@@ -157,7 +166,6 @@
 				FBCECBA61AE593AA0084A52E /* Images.xcassets */,
 				FBCECBA81AE593AA0084A52E /* MainMenu.xib */,
 				FBCECB9F1AE593AA0084A52E /* Supporting Files */,
-				FBCECBE11AE596650084A52E /* TodayTimer-Bridging-Header.h */,
 			);
 			path = TodayTimer;
 			sourceTree = "<group>";
@@ -165,6 +173,7 @@
 		FBCECB9F1AE593AA0084A52E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FBCECBE11AE596650084A52E /* TodayTimer-Bridging-Header.h */,
 				FBCECBA01AE593AA0084A52E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -200,16 +209,14 @@
 		FBCECBC71AE593DA0084A52E /* TodayTimerWidget */ = {
 			isa = PBXGroup;
 			children = (
-				FBFE07881AE59F1A002DFEDE /* Timer.swift */,
+				FBA2F86D1AE5C2CE00BBCCE6 /* Database */,
 				FBCECBCE1AE593DA0084A52E /* TodayViewController.swift */,
 				FBCECBD21AE593DA0084A52E /* TodayViewController.xib */,
-				FBFE07851AE59ECE002DFEDE /* Data.xcdatamodeld */,
 				FBCECBD01AE593DA0084A52E /* TimerViewController.swift */,
 				FBCECBD41AE593DA0084A52E /* TimerViewController.xib */,
 				FBB376401AE5A84600697826 /* EditTimerViewController.swift */,
 				FBB376411AE5A84600697826 /* EditTimerViewController.xib */,
 				FBCECBC81AE593DA0084A52E /* Supporting Files */,
-				FBCECBE41AE596B00084A52E /* TodayTimerWidget-Bridging-Header.h */,
 			);
 			path = TodayTimerWidget;
 			sourceTree = "<group>";
@@ -217,6 +224,7 @@
 		FBCECBC81AE593DA0084A52E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FBCECBE41AE596B00084A52E /* TodayTimerWidget-Bridging-Header.h */,
 				FBCECBC91AE593DA0084A52E /* Info.plist */,
 				FBCECBCA1AE593DA0084A52E /* TodayTimerWidget.entitlements */,
 				FBCECBCB1AE593DA0084A52E /* InfoPlist.strings */,
