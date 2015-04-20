@@ -7,55 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C41690D6193F7CF60040911B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C41690D5193F7CF60040911B /* main.m */; };
-		C41690D9193F7CF60040911B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41690D8193F7CF60040911B /* ViewController.m */; };
-		C41690DC193F7CF60040911B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C41690DB193F7CF60040911B /* AppDelegate.m */; };
-		C41690DE193F7CF60040911B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41690DD193F7CF60040911B /* Images.xcassets */; };
-		C41690E1193F7CF60040911B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41690DF193F7CF60040911B /* Main.storyboard */; };
-		C41690ED193F7CF60040911B /* TodayTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C41690EC193F7CF60040911B /* TodayTimerTests.m */; };
-		C4CD4623193F7D3500A37B30 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CD4622193F7D3500A37B30 /* NotificationCenter.framework */; };
-		C4CD4628193F7D3500A37B30 /* Today_Timer.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = C4CD4627193F7D3500A37B30 /* Today_Timer.entitlements */; };
-		C4CD462B193F7D3500A37B30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4CD4629193F7D3500A37B30 /* InfoPlist.strings */; };
-		C4CD462E193F7D3500A37B30 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CD462D193F7D3500A37B30 /* TodayViewController.m */; };
-		C4CD4633193F7D3500A37B30 /* com.jlproduction.TodayTimer.Today-Timer.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C4CD4620193F7D3500A37B30 /* com.jlproduction.TodayTimer.Today-Timer.appex */; };
-		C4CD463F193F7DBF00A37B30 /* ListRowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CD463B193F7DBF00A37B30 /* ListRowViewController.m */; };
-		C4CD4640193F7DBF00A37B30 /* ListRowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4CD463C193F7DBF00A37B30 /* ListRowViewController.xib */; };
-		C4CD4641193F7DBF00A37B30 /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CD463E193F7DBF00A37B30 /* Timer.m */; };
-		C4CD4643193F7E7100A37B30 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4CD4642193F7E7100A37B30 /* TodayViewController.xib */; };
+		2CED3E492A98E7BBB7A10A8E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B9980D3EFBA2944C29259F /* libPods.a */; };
+		689C1E81A3F8AEC18218D1F2 /* libPods-TodayTimerWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3949A3FEE8A6F377507CC9A6 /* libPods-TodayTimerWidget.a */; };
+		FBB376421AE5A84600697826 /* EditTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB376401AE5A84600697826 /* EditTimerViewController.swift */; };
+		FBB376431AE5A84600697826 /* EditTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBB376411AE5A84600697826 /* EditTimerViewController.xib */; };
+		FBCECBA21AE593AA0084A52E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCECBA11AE593AA0084A52E /* AppDelegate.swift */; };
+		FBCECBA71AE593AA0084A52E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBCECBA61AE593AA0084A52E /* Images.xcassets */; };
+		FBCECBAA1AE593AA0084A52E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBCECBA81AE593AA0084A52E /* MainMenu.xib */; };
+		FBCECBB61AE593AA0084A52E /* TodayTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCECBB51AE593AA0084A52E /* TodayTimerTests.swift */; };
+		FBCECBC61AE593DA0084A52E /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCECBC51AE593DA0084A52E /* NotificationCenter.framework */; };
+		FBCECBCD1AE593DA0084A52E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBCECBCB1AE593DA0084A52E /* InfoPlist.strings */; };
+		FBCECBCF1AE593DA0084A52E /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCECBCE1AE593DA0084A52E /* TodayViewController.swift */; };
+		FBCECBD11AE593DA0084A52E /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCECBD01AE593DA0084A52E /* TimerViewController.swift */; };
+		FBCECBD31AE593DA0084A52E /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBCECBD21AE593DA0084A52E /* TodayViewController.xib */; };
+		FBCECBD51AE593DA0084A52E /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBCECBD41AE593DA0084A52E /* TimerViewController.xib */; };
+		FBCECBD81AE593DA0084A52E /* TodayTimerWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FBCECBC31AE593DA0084A52E /* TodayTimerWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FBFE07871AE59ECE002DFEDE /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBFE07851AE59ECE002DFEDE /* Data.xcdatamodeld */; };
+		FBFE07891AE59F1A002DFEDE /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFE07881AE59F1A002DFEDE /* Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C41690E7193F7CF60040911B /* PBXContainerItemProxy */ = {
+		FBCECBB01AE593AA0084A52E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C41690C8193F7CF60040911B /* Project object */;
+			containerPortal = FBCECB941AE593AA0084A52E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C41690CF193F7CF60040911B;
+			remoteGlobalIDString = FBCECB9B1AE593AA0084A52E;
 			remoteInfo = TodayTimer;
 		};
-		C4CD4631193F7D3500A37B30 /* PBXContainerItemProxy */ = {
+		FBCECBD61AE593DA0084A52E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C41690C8193F7CF60040911B /* Project object */;
+			containerPortal = FBCECB941AE593AA0084A52E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C4CD461F193F7D3500A37B30;
-			remoteInfo = "Today Timer";
-		};
-		C4CD4634193F7D3500A37B30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C41690C8193F7CF60040911B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C4CD461F193F7D3500A37B30;
-			remoteInfo = "Today Timer";
+			remoteGlobalIDString = FBCECBC21AE593DA0084A52E;
+			remoteInfo = TodayTimerWidget;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C4CD4639193F7D3500A37B30 /* Embed App Extensions */ = {
+		FBCECBDC1AE593DA0084A52E /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C4CD4633193F7D3500A37B30 /* com.jlproduction.TodayTimer.Today-Timer.appex in Embed App Extensions */,
+				FBCECBD81AE593DA0084A52E /* TodayTimerWidget.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,150 +58,168 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C41690D0193F7CF60040911B /* TodayTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C41690D4193F7CF60040911B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C41690D5193F7CF60040911B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C41690D7193F7CF60040911B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C41690D8193F7CF60040911B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C41690DA193F7CF60040911B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C41690DB193F7CF60040911B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C41690DD193F7CF60040911B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C41690E0193F7CF60040911B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C41690E6193F7CF60040911B /* TodayTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodayTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C41690EB193F7CF60040911B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C41690EC193F7CF60040911B /* TodayTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayTimerTests.m; sourceTree = "<group>"; };
-		C4CD4620193F7D3500A37B30 /* com.jlproduction.TodayTimer.Today-Timer.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "com.jlproduction.TodayTimer.Today-Timer.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4CD4622193F7D3500A37B30 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		C4CD4626193F7D3500A37B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4CD4627193F7D3500A37B30 /* Today_Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Today_Timer.entitlements; sourceTree = "<group>"; };
-		C4CD462A193F7D3500A37B30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C4CD462C193F7D3500A37B30 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
-		C4CD462D193F7D3500A37B30 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
-		C4CD463A193F7DBF00A37B30 /* ListRowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListRowViewController.h; sourceTree = "<group>"; };
-		C4CD463B193F7DBF00A37B30 /* ListRowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListRowViewController.m; sourceTree = "<group>"; };
-		C4CD463C193F7DBF00A37B30 /* ListRowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListRowViewController.xib; sourceTree = "<group>"; };
-		C4CD463D193F7DBF00A37B30 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
-		C4CD463E193F7DBF00A37B30 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
-		C4CD4642193F7E7100A37B30 /* TodayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayViewController.xib; sourceTree = "<group>"; };
+		21DDCDD0A29174A74C99C526 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		238FBC2835C14D8D6B133325 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3949A3FEE8A6F377507CC9A6 /* libPods-TodayTimerWidget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodayTimerWidget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A323E7676615562287B597E /* Pods-TodayTimerWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTimerWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTimerWidget/Pods-TodayTimerWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		A5B9980D3EFBA2944C29259F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC787E4B78EA99D0AC9ED9 /* Pods-TodayTimerWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTimerWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTimerWidget/Pods-TodayTimerWidget.release.xcconfig"; sourceTree = "<group>"; };
+		FBB376401AE5A84600697826 /* EditTimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTimerViewController.swift; sourceTree = "<group>"; };
+		FBB376411AE5A84600697826 /* EditTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditTimerViewController.xib; sourceTree = "<group>"; };
+		FBCECB9C1AE593AA0084A52E /* TodayTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCECBA01AE593AA0084A52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBCECBA11AE593AA0084A52E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBCECBA61AE593AA0084A52E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FBCECBA91AE593AA0084A52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FBCECBAF1AE593AA0084A52E /* TodayTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodayTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCECBB41AE593AA0084A52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBCECBB51AE593AA0084A52E /* TodayTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTimerTests.swift; sourceTree = "<group>"; };
+		FBCECBC31AE593DA0084A52E /* TodayTimerWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodayTimerWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCECBC51AE593DA0084A52E /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		FBCECBC91AE593DA0084A52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBCECBCA1AE593DA0084A52E /* TodayTimerWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TodayTimerWidget.entitlements; sourceTree = "<group>"; };
+		FBCECBCC1AE593DA0084A52E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBCECBCE1AE593DA0084A52E /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		FBCECBD01AE593DA0084A52E /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		FBCECBD21AE593DA0084A52E /* TodayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodayViewController.xib; sourceTree = "<group>"; };
+		FBCECBD41AE593DA0084A52E /* TimerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
+		FBCECBE11AE596650084A52E /* TodayTimer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TodayTimer-Bridging-Header.h"; sourceTree = "<group>"; };
+		FBCECBE41AE596B00084A52E /* TodayTimerWidget-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TodayTimerWidget-Bridging-Header.h"; sourceTree = "<group>"; };
+		FBFE07861AE59ECE002DFEDE /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		FBFE07881AE59F1A002DFEDE /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C41690CD193F7CF60040911B /* Frameworks */ = {
+		FBCECB991AE593AA0084A52E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CED3E492A98E7BBB7A10A8E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCECBAC1AE593AA0084A52E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C41690E3193F7CF60040911B /* Frameworks */ = {
+		FBCECBC01AE593DA0084A52E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4CD461D193F7D3500A37B30 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4CD4623193F7D3500A37B30 /* NotificationCenter.framework in Frameworks */,
+				FBCECBC61AE593DA0084A52E /* NotificationCenter.framework in Frameworks */,
+				689C1E81A3F8AEC18218D1F2 /* libPods-TodayTimerWidget.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C41690C7193F7CF60040911B = {
+		A589B032DF4E9265B59DC2D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C41690D2193F7CF60040911B /* TodayTimer */,
-				C41690E9193F7CF60040911B /* TodayTimerTests */,
-				C4CD4624193F7D3500A37B30 /* Today Timer */,
-				C4CD4621193F7D3500A37B30 /* Frameworks */,
-				C41690D1193F7CF60040911B /* Products */,
+				238FBC2835C14D8D6B133325 /* Pods.debug.xcconfig */,
+				21DDCDD0A29174A74C99C526 /* Pods.release.xcconfig */,
+				3A323E7676615562287B597E /* Pods-TodayTimerWidget.debug.xcconfig */,
+				DDFC787E4B78EA99D0AC9ED9 /* Pods-TodayTimerWidget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBCECB931AE593AA0084A52E = {
+			isa = PBXGroup;
+			children = (
+				FBCECB9E1AE593AA0084A52E /* TodayTimer */,
+				FBCECBB21AE593AA0084A52E /* TodayTimerTests */,
+				FBCECBC71AE593DA0084A52E /* TodayTimerWidget */,
+				FBCECBC41AE593DA0084A52E /* Frameworks */,
+				FBCECB9D1AE593AA0084A52E /* Products */,
+				A589B032DF4E9265B59DC2D9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
-		C41690D1193F7CF60040911B /* Products */ = {
+		FBCECB9D1AE593AA0084A52E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C41690D0193F7CF60040911B /* TodayTimer.app */,
-				C41690E6193F7CF60040911B /* TodayTimerTests.xctest */,
-				C4CD4620193F7D3500A37B30 /* com.jlproduction.TodayTimer.Today-Timer.appex */,
+				FBCECB9C1AE593AA0084A52E /* TodayTimer.app */,
+				FBCECBAF1AE593AA0084A52E /* TodayTimerTests.xctest */,
+				FBCECBC31AE593DA0084A52E /* TodayTimerWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C41690D2193F7CF60040911B /* TodayTimer */ = {
+		FBCECB9E1AE593AA0084A52E /* TodayTimer */ = {
 			isa = PBXGroup;
 			children = (
-				C41690D7193F7CF60040911B /* ViewController.h */,
-				C41690D8193F7CF60040911B /* ViewController.m */,
-				C41690DA193F7CF60040911B /* AppDelegate.h */,
-				C41690DB193F7CF60040911B /* AppDelegate.m */,
-				C41690DD193F7CF60040911B /* Images.xcassets */,
-				C41690DF193F7CF60040911B /* Main.storyboard */,
-				C41690D3193F7CF60040911B /* Supporting Files */,
+				FBCECBA11AE593AA0084A52E /* AppDelegate.swift */,
+				FBCECBA61AE593AA0084A52E /* Images.xcassets */,
+				FBCECBA81AE593AA0084A52E /* MainMenu.xib */,
+				FBCECB9F1AE593AA0084A52E /* Supporting Files */,
+				FBCECBE11AE596650084A52E /* TodayTimer-Bridging-Header.h */,
 			);
 			path = TodayTimer;
 			sourceTree = "<group>";
 		};
-		C41690D3193F7CF60040911B /* Supporting Files */ = {
+		FBCECB9F1AE593AA0084A52E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C41690D4193F7CF60040911B /* Info.plist */,
-				C41690D5193F7CF60040911B /* main.m */,
+				FBCECBA01AE593AA0084A52E /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C41690E9193F7CF60040911B /* TodayTimerTests */ = {
+		FBCECBB21AE593AA0084A52E /* TodayTimerTests */ = {
 			isa = PBXGroup;
 			children = (
-				C41690EC193F7CF60040911B /* TodayTimerTests.m */,
-				C41690EA193F7CF60040911B /* Supporting Files */,
+				FBCECBB51AE593AA0084A52E /* TodayTimerTests.swift */,
+				FBCECBB31AE593AA0084A52E /* Supporting Files */,
 			);
 			path = TodayTimerTests;
 			sourceTree = "<group>";
 		};
-		C41690EA193F7CF60040911B /* Supporting Files */ = {
+		FBCECBB31AE593AA0084A52E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C41690EB193F7CF60040911B /* Info.plist */,
+				FBCECBB41AE593AA0084A52E /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C4CD4621193F7D3500A37B30 /* Frameworks */ = {
+		FBCECBC41AE593DA0084A52E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C4CD4622193F7D3500A37B30 /* NotificationCenter.framework */,
+				FBCECBC51AE593DA0084A52E /* NotificationCenter.framework */,
+				A5B9980D3EFBA2944C29259F /* libPods.a */,
+				3949A3FEE8A6F377507CC9A6 /* libPods-TodayTimerWidget.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4CD4624193F7D3500A37B30 /* Today Timer */ = {
+		FBCECBC71AE593DA0084A52E /* TodayTimerWidget */ = {
 			isa = PBXGroup;
 			children = (
-				C4CD462C193F7D3500A37B30 /* TodayViewController.h */,
-				C4CD462D193F7D3500A37B30 /* TodayViewController.m */,
-				C4CD4642193F7E7100A37B30 /* TodayViewController.xib */,
-				C4CD463A193F7DBF00A37B30 /* ListRowViewController.h */,
-				C4CD463B193F7DBF00A37B30 /* ListRowViewController.m */,
-				C4CD463C193F7DBF00A37B30 /* ListRowViewController.xib */,
-				C4CD463D193F7DBF00A37B30 /* Timer.h */,
-				C4CD463E193F7DBF00A37B30 /* Timer.m */,
-				C4CD4625193F7D3500A37B30 /* Supporting Files */,
+				FBFE07881AE59F1A002DFEDE /* Timer.swift */,
+				FBCECBCE1AE593DA0084A52E /* TodayViewController.swift */,
+				FBCECBD21AE593DA0084A52E /* TodayViewController.xib */,
+				FBFE07851AE59ECE002DFEDE /* Data.xcdatamodeld */,
+				FBCECBD01AE593DA0084A52E /* TimerViewController.swift */,
+				FBCECBD41AE593DA0084A52E /* TimerViewController.xib */,
+				FBB376401AE5A84600697826 /* EditTimerViewController.swift */,
+				FBB376411AE5A84600697826 /* EditTimerViewController.xib */,
+				FBCECBC81AE593DA0084A52E /* Supporting Files */,
+				FBCECBE41AE596B00084A52E /* TodayTimerWidget-Bridging-Header.h */,
 			);
-			path = "Today Timer";
+			path = TodayTimerWidget;
 			sourceTree = "<group>";
 		};
-		C4CD4625193F7D3500A37B30 /* Supporting Files */ = {
+		FBCECBC81AE593DA0084A52E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C4CD4626193F7D3500A37B30 /* Info.plist */,
-				C4CD4627193F7D3500A37B30 /* Today_Timer.entitlements */,
-				C4CD4629193F7D3500A37B30 /* InfoPlist.strings */,
+				FBCECBC91AE593DA0084A52E /* Info.plist */,
+				FBCECBCA1AE593DA0084A52E /* TodayTimerWidget.entitlements */,
+				FBCECBCB1AE593DA0084A52E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -214,83 +227,86 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C41690CF193F7CF60040911B /* TodayTimer */ = {
+		FBCECB9B1AE593AA0084A52E /* TodayTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C41690F0193F7CF60040911B /* Build configuration list for PBXNativeTarget "TodayTimer" */;
+			buildConfigurationList = FBCECBB91AE593AA0084A52E /* Build configuration list for PBXNativeTarget "TodayTimer" */;
 			buildPhases = (
-				C41690CC193F7CF60040911B /* Sources */,
-				C41690CD193F7CF60040911B /* Frameworks */,
-				C41690CE193F7CF60040911B /* Resources */,
-				C4CD4639193F7D3500A37B30 /* Embed App Extensions */,
+				DD23450B0F32DC9E95DC600F /* Check Pods Manifest.lock */,
+				FBCECB981AE593AA0084A52E /* Sources */,
+				FBCECB991AE593AA0084A52E /* Frameworks */,
+				FBCECB9A1AE593AA0084A52E /* Resources */,
+				FBCECBDC1AE593DA0084A52E /* Embed App Extensions */,
+				FEB3B7A34880328378C00940 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C4CD4632193F7D3500A37B30 /* PBXTargetDependency */,
-				C4CD4635193F7D3500A37B30 /* PBXTargetDependency */,
+				FBCECBD71AE593DA0084A52E /* PBXTargetDependency */,
 			);
 			name = TodayTimer;
 			productName = TodayTimer;
-			productReference = C41690D0193F7CF60040911B /* TodayTimer.app */;
+			productReference = FBCECB9C1AE593AA0084A52E /* TodayTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C41690E5193F7CF60040911B /* TodayTimerTests */ = {
+		FBCECBAE1AE593AA0084A52E /* TodayTimerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C41690F3193F7CF60040911B /* Build configuration list for PBXNativeTarget "TodayTimerTests" */;
+			buildConfigurationList = FBCECBBC1AE593AA0084A52E /* Build configuration list for PBXNativeTarget "TodayTimerTests" */;
 			buildPhases = (
-				C41690E2193F7CF60040911B /* Sources */,
-				C41690E3193F7CF60040911B /* Frameworks */,
-				C41690E4193F7CF60040911B /* Resources */,
+				FBCECBAB1AE593AA0084A52E /* Sources */,
+				FBCECBAC1AE593AA0084A52E /* Frameworks */,
+				FBCECBAD1AE593AA0084A52E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C41690E8193F7CF60040911B /* PBXTargetDependency */,
+				FBCECBB11AE593AA0084A52E /* PBXTargetDependency */,
 			);
 			name = TodayTimerTests;
 			productName = TodayTimerTests;
-			productReference = C41690E6193F7CF60040911B /* TodayTimerTests.xctest */;
+			productReference = FBCECBAF1AE593AA0084A52E /* TodayTimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C4CD461F193F7D3500A37B30 /* Today Timer */ = {
+		FBCECBC21AE593DA0084A52E /* TodayTimerWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4CD4638193F7D3500A37B30 /* Build configuration list for PBXNativeTarget "Today Timer" */;
+			buildConfigurationList = FBCECBD91AE593DA0084A52E /* Build configuration list for PBXNativeTarget "TodayTimerWidget" */;
 			buildPhases = (
-				C4CD461C193F7D3500A37B30 /* Sources */,
-				C4CD461D193F7D3500A37B30 /* Frameworks */,
-				C4CD461E193F7D3500A37B30 /* Resources */,
+				92AB1A98D2BD5910DE9F52CD /* Check Pods Manifest.lock */,
+				FBCECBBF1AE593DA0084A52E /* Sources */,
+				FBCECBC01AE593DA0084A52E /* Frameworks */,
+				FBCECBC11AE593DA0084A52E /* Resources */,
+				8CED84A2EB416520C6490129 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Today Timer";
-			productName = "Today Timer";
-			productReference = C4CD4620193F7D3500A37B30 /* com.jlproduction.TodayTimer.Today-Timer.appex */;
+			name = TodayTimerWidget;
+			productName = TodayTimerWidget;
+			productReference = FBCECBC31AE593DA0084A52E /* TodayTimerWidget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C41690C8193F7CF60040911B /* Project object */ = {
+		FBCECB941AE593AA0084A52E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Jannik Lorenz";
 				TargetAttributes = {
-					C41690CF193F7CF60040911B = {
-						CreatedOnToolsVersion = 6.0;
+					FBCECB9B1AE593AA0084A52E = {
+						CreatedOnToolsVersion = 6.3;
 					};
-					C41690E5193F7CF60040911B = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = C41690CF193F7CF60040911B;
+					FBCECBAE1AE593AA0084A52E = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FBCECB9B1AE593AA0084A52E;
 					};
-					C4CD461F193F7D3500A37B30 = {
-						CreatedOnToolsVersion = 6.0;
+					FBCECBC21AE593DA0084A52E = {
+						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
-			buildConfigurationList = C41690CB193F7CF60040911B /* Build configuration list for PBXProject "TodayTimer" */;
+			buildConfigurationList = FBCECB971AE593AA0084A52E /* Build configuration list for PBXProject "TodayTimer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -298,110 +314,168 @@
 				en,
 				Base,
 			);
-			mainGroup = C41690C7193F7CF60040911B;
-			productRefGroup = C41690D1193F7CF60040911B /* Products */;
+			mainGroup = FBCECB931AE593AA0084A52E;
+			productRefGroup = FBCECB9D1AE593AA0084A52E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C41690CF193F7CF60040911B /* TodayTimer */,
-				C41690E5193F7CF60040911B /* TodayTimerTests */,
-				C4CD461F193F7D3500A37B30 /* Today Timer */,
+				FBCECB9B1AE593AA0084A52E /* TodayTimer */,
+				FBCECBAE1AE593AA0084A52E /* TodayTimerTests */,
+				FBCECBC21AE593DA0084A52E /* TodayTimerWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C41690CE193F7CF60040911B /* Resources */ = {
+		FBCECB9A1AE593AA0084A52E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C41690DE193F7CF60040911B /* Images.xcassets in Resources */,
-				C41690E1193F7CF60040911B /* Main.storyboard in Resources */,
+				FBCECBA71AE593AA0084A52E /* Images.xcassets in Resources */,
+				FBCECBAA1AE593AA0084A52E /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C41690E4193F7CF60040911B /* Resources */ = {
+		FBCECBAD1AE593AA0084A52E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4CD461E193F7D3500A37B30 /* Resources */ = {
+		FBCECBC11AE593DA0084A52E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CD4643193F7E7100A37B30 /* TodayViewController.xib in Resources */,
-				C4CD4628193F7D3500A37B30 /* Today_Timer.entitlements in Resources */,
-				C4CD4640193F7DBF00A37B30 /* ListRowViewController.xib in Resources */,
-				C4CD462B193F7D3500A37B30 /* InfoPlist.strings in Resources */,
+				FBCECBD51AE593DA0084A52E /* TimerViewController.xib in Resources */,
+				FBCECBD31AE593DA0084A52E /* TodayViewController.xib in Resources */,
+				FBB376431AE5A84600697826 /* EditTimerViewController.xib in Resources */,
+				FBCECBCD1AE593DA0084A52E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8CED84A2EB416520C6490129 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayTimerWidget/Pods-TodayTimerWidget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92AB1A98D2BD5910DE9F52CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD23450B0F32DC9E95DC600F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FEB3B7A34880328378C00940 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		C41690CC193F7CF60040911B /* Sources */ = {
+		FBCECB981AE593AA0084A52E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C41690D9193F7CF60040911B /* ViewController.m in Sources */,
-				C41690D6193F7CF60040911B /* main.m in Sources */,
-				C41690DC193F7CF60040911B /* AppDelegate.m in Sources */,
+				FBCECBA21AE593AA0084A52E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C41690E2193F7CF60040911B /* Sources */ = {
+		FBCECBAB1AE593AA0084A52E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C41690ED193F7CF60040911B /* TodayTimerTests.m in Sources */,
+				FBCECBB61AE593AA0084A52E /* TodayTimerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4CD461C193F7D3500A37B30 /* Sources */ = {
+		FBCECBBF1AE593DA0084A52E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CD4641193F7DBF00A37B30 /* Timer.m in Sources */,
-				C4CD462E193F7D3500A37B30 /* TodayViewController.m in Sources */,
-				C4CD463F193F7DBF00A37B30 /* ListRowViewController.m in Sources */,
+				FBCECBCF1AE593DA0084A52E /* TodayViewController.swift in Sources */,
+				FBFE07871AE59ECE002DFEDE /* Data.xcdatamodeld in Sources */,
+				FBCECBD11AE593DA0084A52E /* TimerViewController.swift in Sources */,
+				FBB376421AE5A84600697826 /* EditTimerViewController.swift in Sources */,
+				FBFE07891AE59F1A002DFEDE /* Timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C41690E8193F7CF60040911B /* PBXTargetDependency */ = {
+		FBCECBB11AE593AA0084A52E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C41690CF193F7CF60040911B /* TodayTimer */;
-			targetProxy = C41690E7193F7CF60040911B /* PBXContainerItemProxy */;
+			target = FBCECB9B1AE593AA0084A52E /* TodayTimer */;
+			targetProxy = FBCECBB01AE593AA0084A52E /* PBXContainerItemProxy */;
 		};
-		C4CD4632193F7D3500A37B30 /* PBXTargetDependency */ = {
+		FBCECBD71AE593DA0084A52E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4CD461F193F7D3500A37B30 /* Today Timer */;
-			targetProxy = C4CD4631193F7D3500A37B30 /* PBXContainerItemProxy */;
-		};
-		C4CD4635193F7D3500A37B30 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C4CD461F193F7D3500A37B30 /* Today Timer */;
-			targetProxy = C4CD4634193F7D3500A37B30 /* PBXContainerItemProxy */;
+			target = FBCECBC21AE593DA0084A52E /* TodayTimerWidget */;
+			targetProxy = FBCECBD61AE593DA0084A52E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C41690DF193F7CF60040911B /* Main.storyboard */ = {
+		FBCECBA81AE593AA0084A52E /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C41690E0193F7CF60040911B /* Base */,
+				FBCECBA91AE593AA0084A52E /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		C4CD4629193F7D3500A37B30 /* InfoPlist.strings */ = {
+		FBCECBCB1AE593DA0084A52E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C4CD462A193F7D3500A37B30 /* en */,
+				FBCECBCC1AE593DA0084A52E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -409,7 +483,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C41690EE193F7CF60040911B /* Debug */ = {
+		FBCECBB71AE593AA0084A52E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,9 +502,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -444,13 +520,14 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				METAL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		C41690EF193F7CF60040911B /* Release */ = {
+		FBCECBB81AE593AA0084A52E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -468,11 +545,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -480,37 +558,44 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				METAL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		C41690F1193F7CF60040911B /* Debug */ = {
+		FBCECBBA1AE593AA0084A52E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238FBC2835C14D8D6B133325 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TodayTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TodayTimer/TodayTimer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		C41690F2193F7CF60040911B /* Release */ = {
+		FBCECBBB1AE593AA0084A52E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21DDCDD0A29174A74C99C526 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TodayTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TodayTimer/TodayTimer-Bridging-Header.h";
 			};
 			name = Release;
 		};
-		C41690F4193F7CF60040911B /* Debug */ = {
+		FBCECBBD1AE593AA0084A52E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TodayTimer.app/Contents/MacOS/TodayTimer";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -522,16 +607,15 @@
 				);
 				INFOPLIST_FILE = TodayTimerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodayTimer.app/Contents/MacOS/TodayTimer";
 			};
 			name = Debug;
 		};
-		C41690F5193F7CF60040911B /* Release */ = {
+		FBCECBBE1AE593AA0084A52E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TodayTimer.app/Contents/MacOS/TodayTimer";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -539,83 +623,101 @@
 				);
 				INFOPLIST_FILE = TodayTimerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodayTimer.app/Contents/MacOS/TodayTimer";
 			};
 			name = Release;
 		};
-		C4CD4636193F7D3500A37B30 /* Debug */ = {
+		FBCECBDA1AE593DA0084A52E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A323E7676615562287B597E /* Pods-TodayTimerWidget.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Today Timer/Today_Timer.entitlements";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TodayTimerWidget/TodayTimerWidget.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Today Timer/Info.plist";
+				INFOPLIST_FILE = TodayTimerWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "com.jlproduction.TodayTimer.$(TARGET_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TodayTimerWidget/TodayTimerWidget-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		C4CD4637193F7D3500A37B30 /* Release */ = {
+		FBCECBDB1AE593DA0084A52E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC787E4B78EA99D0AC9ED9 /* Pods-TodayTimerWidget.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Today Timer/Today_Timer.entitlements";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TodayTimerWidget/TodayTimerWidget.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Today Timer/Info.plist";
+				INFOPLIST_FILE = TodayTimerWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "com.jlproduction.TodayTimer.$(TARGET_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TodayTimerWidget/TodayTimerWidget-Bridging-Header.h";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C41690CB193F7CF60040911B /* Build configuration list for PBXProject "TodayTimer" */ = {
+		FBCECB971AE593AA0084A52E /* Build configuration list for PBXProject "TodayTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C41690EE193F7CF60040911B /* Debug */,
-				C41690EF193F7CF60040911B /* Release */,
+				FBCECBB71AE593AA0084A52E /* Debug */,
+				FBCECBB81AE593AA0084A52E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C41690F0193F7CF60040911B /* Build configuration list for PBXNativeTarget "TodayTimer" */ = {
+		FBCECBB91AE593AA0084A52E /* Build configuration list for PBXNativeTarget "TodayTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C41690F1193F7CF60040911B /* Debug */,
-				C41690F2193F7CF60040911B /* Release */,
+				FBCECBBA1AE593AA0084A52E /* Debug */,
+				FBCECBBB1AE593AA0084A52E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C41690F3193F7CF60040911B /* Build configuration list for PBXNativeTarget "TodayTimerTests" */ = {
+		FBCECBBC1AE593AA0084A52E /* Build configuration list for PBXNativeTarget "TodayTimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C41690F4193F7CF60040911B /* Debug */,
-				C41690F5193F7CF60040911B /* Release */,
+				FBCECBBD1AE593AA0084A52E /* Debug */,
+				FBCECBBE1AE593AA0084A52E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4CD4638193F7D3500A37B30 /* Build configuration list for PBXNativeTarget "Today Timer" */ = {
+		FBCECBD91AE593DA0084A52E /* Build configuration list for PBXNativeTarget "TodayTimerWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4CD4636193F7D3500A37B30 /* Debug */,
-				C4CD4637193F7D3500A37B30 /* Release */,
+				FBCECBDA1AE593DA0084A52E /* Debug */,
+				FBCECBDB1AE593DA0084A52E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBFE07851AE59ECE002DFEDE /* Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBFE07861AE59ECE002DFEDE /* Data.xcdatamodel */,
+			);
+			currentVersion = FBFE07861AE59ECE002DFEDE /* Data.xcdatamodel */;
+			path = Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = C41690C8193F7CF60040911B /* Project object */;
+	rootObject = FBCECB941AE593AA0084A52E /* Project object */;
 }

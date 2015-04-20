@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7531" systemVersion="14D98g" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7531"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="EditTimerViewController" customModule="TodayTimerWidget" customModuleProvider="target">
+            <connections>
+                <outlet property="dateField" destination="Q3k-kD-Efl" id="YOx-jn-jHZ"/>
+                <outlet property="titleField" destination="iVC-Lb-54o" id="UZX-rY-AeS"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView translatesAutoresizingMaskIntoConstraints="NO" id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="-2" width="320" height="153"/>
+            <subviews>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ezQ-fw-Wn7">
+                    <rect key="frame" x="4" y="2" width="312" height="32"/>
+                    <buttonCell key="cell" type="push" title="Done" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="P5k-7D-mAv">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="done:" target="-2" id="nSW-ae-mRY"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iVC-Lb-54o" userLabel="Edit TextField">
+                    <rect key="frame" x="8" y="103" width="304" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="XAs-96-VWB"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" placeholderString="Title" id="JTo-7l-XNs">
+                        <font key="font" metaFont="system" size="17"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <datePicker verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q3k-kD-Efl" userLabel="Edit DateField">
+                    <rect key="frame" x="10" y="67" width="300" height="28"/>
+                    <datePickerCell key="cell" alignment="left" drawsBackground="NO" datePickerStyle="textField" id="S50-ql-Pu6">
+                        <font key="font" size="19" name=".HelveticaNeueDeskInterface-Regular"/>
+                        <calendarDate key="date" timeIntervalSinceReferenceDate="-595929600" calendarFormat="%Y-%m-%d %H:%M:%S %z">
+                            <!--1982-02-12 16:00:00 +0000-->
+                            <timeZone key="timeZone" name="US/Pacific"/>
+                        </calendarDate>
+                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="deviceWhite"/>
+                        <datePickerElements key="datePickerElements" year="YES" month="YES" day="YES" hour="YES" minute="YES"/>
+                    </datePickerCell>
+                </datePicker>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Q3k-kD-Efl" firstAttribute="top" secondItem="iVC-Lb-54o" secondAttribute="bottom" constant="4" id="e5U-9R-QjQ"/>
+            </constraints>
+            <point key="canvasLocation" x="248" y="401.5"/>
+        </customView>
+    </objects>
+</document>

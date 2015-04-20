@@ -5,15 +5,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Today Timer</string>
+	<string>TodayTimerWidget</string>
 	<key>CFBundleExecutable</key>
-	<string>${EXECUTABLE_NAME}</string>
+	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>com.janniklorenz.TodayTimer.$(PRODUCT_NAME:rfc1034identifier)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
@@ -22,16 +22,18 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.widget-extension</string>
 		<key>NSExtensionPrincipalClass</key>
-		<string>TodayViewController</string>
+		<string>$(PRODUCT_MODULE_NAME).TodayViewController</string>
 		<key>com.apple.notificationcenter.widget.description</key>
-		<string>Today Timer</string>
+		<string>TodayTimerWidget</string>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2014 Jannik Lorenz. All rights reserved.</string>
+	<string>Copyright © 2015 Jannik Lorenz. All rights reserved.</string>
 </dict>
 </plist>

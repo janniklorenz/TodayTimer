@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7531" systemVersion="14D98g" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7531"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="TimerViewController" customModule="TodayTimerWidget" customModuleProvider="target">
+            <connections>
+                <outlet property="countdownDate" destination="KU6-MB-4x2" id="Evq-dE-Ha7"/>
+                <outlet property="countdownTitle" destination="2Ki-2v-hGS" id="lko-NQ-8Of"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView translatesAutoresizingMaskIntoConstraints="NO" id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KU6-MB-4x2">
+                    <rect key="frame" x="0.0" y="8" width="304" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="4Yb-ZR-gMg"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="pgq-dU-GDk">
+                        <font key="font" metaFont="system" size="23"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Ki-2v-hGS">
+                    <rect key="frame" x="-2" y="44" width="304" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="oDQ-h2-lHt"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="itf-6z-NZp">
+                        <font key="font" metaFont="system" size="19"/>
+                        <color key="textColor" white="0.79772306743421062" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tc4-o5-mPa">
+                    <rect key="frame" x="209" y="51" width="21" height="21"/>
+                    <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="NSSmartBadgeTemplate" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="ufL-9d-lhP">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="editTimer:" target="-2" id="Fgc-WE-JKk"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="KU6-MB-4x2" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="2" id="AfO-ab-vWV"/>
+                <constraint firstAttribute="trailing" secondItem="KU6-MB-4x2" secondAttribute="trailing" constant="18" id="Fst-pa-L2p"/>
+                <constraint firstItem="KU6-MB-4x2" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="30" id="aFo-8G-i2m"/>
+                <constraint firstAttribute="bottom" secondItem="KU6-MB-4x2" secondAttribute="bottom" constant="22" id="pP1-Fv-KED"/>
+            </constraints>
+        </customView>
+    </objects>
+    <resources>
+        <image name="NSSmartBadgeTemplate" width="14" height="14"/>
+    </resources>
+</document>
