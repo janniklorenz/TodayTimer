@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C3FDE690-FE77-4911-8D10-6551E4F9ACD1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TodayTimer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1865312BE73D95E3998E5FCE4F2AA98632C4987F</key>
+		<string>https://github.com/janniklorenz/TodayTimer</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TodayTimer.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1865312BE73D95E3998E5FCE4F2AA98632C4987F</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/janniklorenz/TodayTimer</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1865312BE73D95E3998E5FCE4F2AA98632C4987F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1865312BE73D95E3998E5FCE4F2AA98632C4987F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TodayTimer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

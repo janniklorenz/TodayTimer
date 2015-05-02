@@ -30,7 +30,7 @@ class TimerViewController: NSViewController {
         
         
     }
-
+    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -51,10 +51,15 @@ class TimerViewController: NSViewController {
         
         var left = self.timer.targetDate.timeIntervalSinceNow;
         if (left > 0) {
-            var seconds = left % 60;
-            var minutes = (left / 60) % 60;
-            var houres  = ((left / 60) / 60) % 24;
-            var days    = ((left / 60) / 60) / 24;
+            var secondsf = left % 60;
+            var minutesf = (left / 60) % 60;
+            var houresf  = ((left / 60) / 60) % 24;
+            var daysf    = ((left / 60) / 60) / 24;
+            
+            var seconds = Int(secondsf)
+            var minutes = Int(minutesf)
+            var houres = Int(houresf)
+            var days = Int(daysf)
             
             var output = ""
             
@@ -84,20 +89,20 @@ class TimerViewController: NSViewController {
                     refreshSecond = 60
                 }
                 
-                if (minutes > 1 && days < 1) {
+                if (minutes > 1 && days == 0) {
                     output += String(format:"%i Minuten ", Int(minutes))
                     refreshSecond = 10
                 }
-                else if (minutes == 1 && days < 1) {
+                else if (minutes == 1 && days == 0) {
                     output += String(format:"%i Minute ", Int(minutes))
-                    refreshSecond = 10
+                    refreshSecond = 1
                 }
                 
-                if (seconds > 1 && days < 1 && houres < 1) {
+                if (seconds > 1 && days == 0 && houres == 0) {
                     output += String(format:"%i Sekunden ", Int(seconds))
                     refreshSecond = 1
                 }
-                else if (seconds == 1 && days < 1 && houres < 1) {
+                else if (seconds == 1 && days == 0 && houres == 0) {
                     output += String(format:"%i Sekunde ", Int(seconds))
                     refreshSecond = 1
                 }

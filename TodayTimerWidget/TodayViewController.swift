@@ -23,7 +23,7 @@ class TodayViewController: NSViewController, NCWidgetProviding, NCWidgetListView
     override init?(nibName: String?, bundle: NSBundle?) {
         MagicalRecord.setupCoreDataStack()
         
-        self.timers = Timer.MR_findAll() as! [Timer]
+        self.timers = Timer.MR_findAllSortedBy("targetDate", ascending: true) as! [Timer]
         super.init(nibName: nibName, bundle: bundle)
     }
 
@@ -73,10 +73,9 @@ class TodayViewController: NSViewController, NCWidgetProviding, NCWidgetListView
         completionHandler(.NoData)
     }
 
-    func widgetMarginInsetsForProposedMarginInsets(var defaultMarginInset: NSEdgeInsets) -> NSEdgeInsets {
-        // Override the left margin so that the list view is flush with the edge.
-        defaultMarginInset.left = 0
-        return defaultMarginInset
+    func widgetMarginInsetsForProposedMarginInsets(defaultMarginInsets: NSEdgeInsets) -> NSEdgeInsets {
+        var inset = NSEdgeInsetsMake(10, 0, 0, 0)
+        return inset
     }
 
     var widgetAllowsEditing: Bool {
@@ -123,7 +122,7 @@ class TodayViewController: NSViewController, NCWidgetProviding, NCWidgetListView
             var timer = Timer.MR_createInContext(localContext) as! Timer
             timer.title = "Test"
             localContext.MR_saveToPersistentStoreWithCompletion({ (success: Bool, error: NSError!) -> Void in
-                self.timers = Timer.MR_findAll() as! [Timer]
+                self.timers = Timer.MR_findAllSortedBy("targetDate", ascending: true) as! [Timer]
 //                self.timers.append(timer)
                 self.listViewController.contents.append(timer.description)
             })
@@ -134,7 +133,7 @@ class TodayViewController: NSViewController, NCWidgetProviding, NCWidgetListView
 
     func widgetList(list: NCWidgetListViewController!, shouldReorderRow row: Int) -> Bool {
         // Return true to allow the item to be reordered in the list by the user.
-        return true
+        return false
     }
 
     func widgetList(list: NCWidgetListViewController!, didReorderRow row: Int, toRow newIndex: Int) {
@@ -174,7 +173,7 @@ class TodayViewController: NSViewController, NCWidgetProviding, NCWidgetListView
     
     func doneEditTimer(timer: Timer) {
         var index = find(self.timers, timer)!
-        self.timers = Timer.MR_findAll() as! [Timer]
+        self.timers = Timer.MR_findAllSortedBy("targetDate", ascending: true) as! [Timer]
         self.listViewController.contents[index] = timer.description
 //        self.timers[index] = timer
 //        self.updateList()

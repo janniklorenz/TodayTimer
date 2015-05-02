@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2CED3E492A98E7BBB7A10A8E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B9980D3EFBA2944C29259F /* libPods.a */; };
+		4D1C7FC8A107A53BF5725FB5 /* libPods-TodayTimerCli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8590BDC5536BB747683E1817 /* libPods-TodayTimerCli.a */; };
 		689C1E81A3F8AEC18218D1F2 /* libPods-TodayTimerWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3949A3FEE8A6F377507CC9A6 /* libPods-TodayTimerWidget.a */; };
+		FB7BD0BB1AE66BD100529EAB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BD0BA1AE66BD100529EAB /* main.swift */; };
+		FB7BD0BF1AE66C0D00529EAB /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBFE07851AE59ECE002DFEDE /* Data.xcdatamodeld */; };
+		FB7BD0C01AE66C1000529EAB /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFE07881AE59F1A002DFEDE /* Timer.swift */; };
 		FBB376421AE5A84600697826 /* EditTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB376401AE5A84600697826 /* EditTimerViewController.swift */; };
 		FBB376431AE5A84600697826 /* EditTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBB376411AE5A84600697826 /* EditTimerViewController.xib */; };
 		FBCECBA21AE593AA0084A52E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCECBA11AE593AA0084A52E /* AppDelegate.swift */; };
@@ -44,6 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		FB7BD0B61AE66BD100529EAB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		FBCECBDC1AE593DA0084A52E /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,12 +71,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1ACE64B72857391E0E306C03 /* Pods-TodayTimerCli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTimerCli.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTimerCli/Pods-TodayTimerCli.release.xcconfig"; sourceTree = "<group>"; };
 		21DDCDD0A29174A74C99C526 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		238FBC2835C14D8D6B133325 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3949A3FEE8A6F377507CC9A6 /* libPods-TodayTimerWidget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodayTimerWidget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A323E7676615562287B597E /* Pods-TodayTimerWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTimerWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTimerWidget/Pods-TodayTimerWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		8590BDC5536BB747683E1817 /* libPods-TodayTimerCli.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodayTimerCli.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE7CC2A288267AEC5D8E50B /* Pods-TodayTimerCli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTimerCli.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTimerCli/Pods-TodayTimerCli.debug.xcconfig"; sourceTree = "<group>"; };
 		A5B9980D3EFBA2944C29259F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFC787E4B78EA99D0AC9ED9 /* Pods-TodayTimerWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayTimerWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayTimerWidget/Pods-TodayTimerWidget.release.xcconfig"; sourceTree = "<group>"; };
+		FB7BD0B81AE66BD100529EAB /* TodayTimerCli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TodayTimerCli; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7BD0BA1AE66BD100529EAB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FB7BD0C11AE66C2D00529EAB /* TodayTimerCli-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TodayTimerCli-Bridging-Header.h"; sourceTree = "<group>"; };
 		FBB376401AE5A84600697826 /* EditTimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTimerViewController.swift; sourceTree = "<group>"; };
 		FBB376411AE5A84600697826 /* EditTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditTimerViewController.xib; sourceTree = "<group>"; };
 		FBCECB9C1AE593AA0084A52E /* TodayTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +109,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FB7BD0B51AE66BD100529EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1C7FC8A107A53BF5725FB5 /* libPods-TodayTimerCli.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FBCECB991AE593AA0084A52E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,8 +151,19 @@
 				21DDCDD0A29174A74C99C526 /* Pods.release.xcconfig */,
 				3A323E7676615562287B597E /* Pods-TodayTimerWidget.debug.xcconfig */,
 				DDFC787E4B78EA99D0AC9ED9 /* Pods-TodayTimerWidget.release.xcconfig */,
+				9AE7CC2A288267AEC5D8E50B /* Pods-TodayTimerCli.debug.xcconfig */,
+				1ACE64B72857391E0E306C03 /* Pods-TodayTimerCli.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB7BD0B91AE66BD100529EAB /* TodayTimerCli */ = {
+			isa = PBXGroup;
+			children = (
+				FB7BD0BA1AE66BD100529EAB /* main.swift */,
+				FB7BD0C11AE66C2D00529EAB /* TodayTimerCli-Bridging-Header.h */,
+			);
+			path = TodayTimerCli;
 			sourceTree = "<group>";
 		};
 		FBA2F86D1AE5C2CE00BBCCE6 /* Database */ = {
@@ -143,6 +181,7 @@
 				FBCECB9E1AE593AA0084A52E /* TodayTimer */,
 				FBCECBB21AE593AA0084A52E /* TodayTimerTests */,
 				FBCECBC71AE593DA0084A52E /* TodayTimerWidget */,
+				FB7BD0B91AE66BD100529EAB /* TodayTimerCli */,
 				FBCECBC41AE593DA0084A52E /* Frameworks */,
 				FBCECB9D1AE593AA0084A52E /* Products */,
 				A589B032DF4E9265B59DC2D9 /* Pods */,
@@ -155,6 +194,7 @@
 				FBCECB9C1AE593AA0084A52E /* TodayTimer.app */,
 				FBCECBAF1AE593AA0084A52E /* TodayTimerTests.xctest */,
 				FBCECBC31AE593DA0084A52E /* TodayTimerWidget.appex */,
+				FB7BD0B81AE66BD100529EAB /* TodayTimerCli */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,6 +242,7 @@
 				FBCECBC51AE593DA0084A52E /* NotificationCenter.framework */,
 				A5B9980D3EFBA2944C29259F /* libPods.a */,
 				3949A3FEE8A6F377507CC9A6 /* libPods-TodayTimerWidget.a */,
+				8590BDC5536BB747683E1817 /* libPods-TodayTimerCli.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -235,6 +276,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FB7BD0B71AE66BD100529EAB /* TodayTimerCli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7BD0BE1AE66BD100529EAB /* Build configuration list for PBXNativeTarget "TodayTimerCli" */;
+			buildPhases = (
+				868160986CB099326889B13A /* Check Pods Manifest.lock */,
+				FB7BD0B41AE66BD100529EAB /* Sources */,
+				FB7BD0B51AE66BD100529EAB /* Frameworks */,
+				FB7BD0B61AE66BD100529EAB /* CopyFiles */,
+				E31294F2685AEEDB742DF70D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayTimerCli;
+			productName = TodayTimerCli;
+			productReference = FB7BD0B81AE66BD100529EAB /* TodayTimerCli */;
+			productType = "com.apple.product-type.tool";
+		};
 		FBCECB9B1AE593AA0084A52E /* TodayTimer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBCECBB91AE593AA0084A52E /* Build configuration list for PBXNativeTarget "TodayTimer" */;
@@ -302,6 +362,9 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Jannik Lorenz";
 				TargetAttributes = {
+					FB7BD0B71AE66BD100529EAB = {
+						CreatedOnToolsVersion = 6.3;
+					};
 					FBCECB9B1AE593AA0084A52E = {
 						CreatedOnToolsVersion = 6.3;
 					};
@@ -330,6 +393,7 @@
 				FBCECB9B1AE593AA0084A52E /* TodayTimer */,
 				FBCECBAE1AE593AA0084A52E /* TodayTimerTests */,
 				FBCECBC21AE593DA0084A52E /* TodayTimerWidget */,
+				FB7BD0B71AE66BD100529EAB /* TodayTimerCli */,
 			);
 		};
 /* End PBXProject section */
@@ -365,6 +429,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		868160986CB099326889B13A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		8CED84A2EB416520C6490129 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -410,6 +489,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		E31294F2685AEEDB742DF70D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayTimerCli/Pods-TodayTimerCli-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FEB3B7A34880328378C00940 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,6 +522,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FB7BD0B41AE66BD100529EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7BD0C01AE66C1000529EAB /* Timer.swift in Sources */,
+				FB7BD0BB1AE66BD100529EAB /* main.swift in Sources */,
+				FB7BD0BF1AE66C0D00529EAB /* Data.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FBCECB981AE593AA0084A52E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -491,6 +595,33 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FB7BD0BC1AE66BD100529EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE7CC2A288267AEC5D8E50B /* Pods-TodayTimerCli.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TodayTimerCli/TodayTimerCli-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB7BD0BD1AE66BD100529EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ACE64B72857391E0E306C03 /* Pods-TodayTimerCli.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TodayTimerCli/TodayTimerCli-Bridging-Header.h";
+			};
+			name = Release;
+		};
 		FBCECBB71AE593AA0084A52E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -676,6 +807,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FB7BD0BE1AE66BD100529EAB /* Build configuration list for PBXNativeTarget "TodayTimerCli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7BD0BC1AE66BD100529EAB /* Debug */,
+				FB7BD0BD1AE66BD100529EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FBCECB971AE593AA0084A52E /* Build configuration list for PBXProject "TodayTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

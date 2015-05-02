@@ -17,3 +17,6 @@ target 'TodayTimerWidget' do
 pod "MagicalRecord"
 end
 
+target 'TodayTimerCli' do
+pod "MagicalRecord"
+end
